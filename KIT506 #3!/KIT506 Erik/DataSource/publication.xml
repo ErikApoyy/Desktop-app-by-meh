@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.10
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Sep 26, 2023 at 11:13 AM
+- Server version: 5.5.68-MariaDB
+- PHP Version: 7.2.24
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="kit206" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="publication">
+                CREATE TABLE `publication` (
+                  `doi` varchar(256) NOT NULL,
+                  `title` varchar(256) NOT NULL,
+                  `ranking` enum('Q1','Q2','Q3','Q4') NOT NULL,
+                  `authors` varchar(256) NOT NULL,
+                  `year` year(4) NOT NULL,
+                  `type` enum('Conference','Journal','Other') NOT NULL,
+                  `cite_as` varchar(1024) NOT NULL,
+                  `available` date NOT NULL,
+                  PRIMARY KEY (`doi`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'kit206'
+    -->
+    <database name="kit206">
+        <!-- Table publication -->
+        <table name="publication">
+            <column name="doi">10.1007/11504894_31</column>
+            <column name="title">Structural advantages for ant colony optimisation inherent in permutation scheduling problems</column>
+            <column name="ranking">Q2</column>
+            <column name="authors">Alexandra Halloran, Gemma Stanford</column>
+            <column name="year">2020</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Halloran, A and Stanford, G, &quot;Structural advantages for ant colony optimisation inherent in permutation scheduling problems&quot;, Proceedings 18th International Conference on Industrial and Engineering Applications of Artificial Intelligence and Expert Systems (IEA/AIE 2011), 22-24 June 2011, Bari, Italy, pp. 218-228. (2011)</column>
+            <column name="available">2020-07-13</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/11839088_42</column>
+            <column name="title">Higher order pheromone models in ant colony optimisation</column>
+            <column name="ranking">Q2</column>
+            <column name="authors">Ben Bramston, Caitlyn Pemulwuy</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Bramston, B and Pemulwuy, C, &quot;Higher order pheromone models in ant colony optimisation&quot;, Proceedings 5th International Workshop on Ant Colony Optimization and Swarm Intelligence (ANTS 2012), 4-7 September 2012, Brussels, Belgium, pp. 428-435. (2012)</column>
+            <column name="available">2018-09-12</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/11839088_49</column>
+            <column name="title">Solution representation for job shop scheduling problems in ant colony optimisation</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Mary Lister</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Lister, M, &quot;Solution representation for job shop scheduling problems in ant colony optimisation&quot;, Proceedings Fifth International Workshop on Ant Colony Optimization and Swarm Intelligence (ANTS 2012), 4-7 September 2012, Brussels, Belgium, pp. 484-491. (2012)</column>
+            <column name="available">2018-01-27</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/3-540-45724-0_22</column>
+            <column name="title">Candidate set strategies for ant colony optimisation</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Mary Lister</column>
+            <column name="year">2016</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Lister, M, &quot;Candidate set strategies for ant colony optimisation&quot;, Proceedings 3rd International Workshop on Ant Algorithms (ANTS 2010), 12-14 September 2010, Brussels, Belgium, pp. 243-249. (2010)</column>
+            <column name="available">2016-01-20</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/3-540-45724-0_9</column>
+            <column name="title">Anti-pheromone as a tool for better exploration of search space</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Gemma Stanford</column>
+            <column name="year">2020</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G, &quot;Anti-pheromone as a tool for better exploration of search space&quot;, Proceedings 3rd International Workshop on Ant Algorithms (ANTS 2011), 12-14 September 2011, Brussels, Belgium, pp. 100-110. (2011)</column>
+            <column name="available">2020-12-03</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/978-3-540-76931-6_1</column>
+            <column name="title">Alternative solution representations for the job shop scheduling problem in ant colony optimisation</column>
+            <column name="ranking">Q3</column>
+            <column name="authors">Gemma Stanford, John Beckett</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G and Beckett, J, &quot;Alternative solution representations for the job shop scheduling problem in ant colony optimisation&quot;, Proceedings Third Australian Conference on Artificial Life (ACAL07), 4-6 December 2012, Gold Coast, Australia, pp. 1-12. (2012)</column>
+            <column name="available">2018-07-21</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/978-3-642-10427-5_27</column>
+            <column name="title">The effects of different kinds of move in differential evolution searches</column>
+            <column name="ranking">Q4</column>
+            <column name="authors">Caitlyn Pemulwuy</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pemulwuy, C, &quot;The effects of different kinds of move in differential evolution searches&quot;, Artificial Life: Borrowing from Biology, 1-4 December 2012, Melbourne, Australia, pp. 272-281. (2012)</column>
+            <column name="available">2018-02-14</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/978-3-642-25832-9_29</column>
+            <column name="title">A simple strategy to maintain diversity and reduce crowding in particle swarm optimization</column>
+            <column name="ranking">Q2</column>
+            <column name="authors">Alexandra Halloran</column>
+            <column name="year">2019</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Halloran, A, &quot;A simple strategy to maintain diversity and reduce crowding in particle swarm optimization&quot;, AI 2013: Advances in Artificial Intelligence, 5-8 December 2013, Perth, Australia, pp. 281-290. (2013)</column>
+            <column name="available">2019-05-29</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/b99492</column>
+            <column name="title">Search bias in constructive metaheuristics and implications for ant colony optimisation</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">John Beckett</column>
+            <column name="year">2017</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Beckett, J, &quot;Search bias in constructive metaheuristics and implications for ant colony optimisation&quot;, Proceedings of the 4th International Workshop (ANTS 2011), 5-8 September 2011, Brussels, Belgium, pp. 390-397. (2011)</column>
+            <column name="available">2017-11-25</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1007/s10489-014-0613-2</column>
+            <column name="title">Measuring the curse of dimensionality and its effects on particle swarm optimization and differential evolution</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Gemma Stanford</column>
+            <column name="year">2021</column>
+            <column name="type">Journal</column>
+            <column name="cite_as">Stanford, G, &quot;Measuring the curse of dimensionality and its effects on particle swarm optimization and differential evolution&quot;, Applied Intelligence, 42(3), pp. 514-526. (2015)</column>
+            <column name="available">2021-08-04</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1016/j.cor.2006.12.014</column>
+            <column name="title">Solution bias in ant colony optimisation: lessons for selecting pheromone models</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Edward Vogt, Gemma Stanford</column>
+            <column name="year">2020</column>
+            <column name="type">Journal</column>
+            <column name="cite_as">Vogt, E and Stanford, G, &quot;Solution bias in ant colony optimisation: lessons for selecting pheromone models&quot;, Computers and Operations Research, 35(9), pp. 2728-2749. (2014)</column>
+            <column name="available">2020-11-07</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1016/j.procs.2014.05.174</column>
+            <column name="title">Extending the front: designing RFID antennas using multiobjective differential evolution with biased population selection</column>
+            <column name="ranking">Q3</column>
+            <column name="authors">Gemma Stanford</column>
+            <column name="year">2021</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G, &quot;Extending the front: designing RFID antennas using multiobjective differential evolution with biased population selection&quot;, Proceedings of 14th International Conference on Computational Science 2015, 10-12 June 2015, Cairns, Australia, pp. 1893-1903. (2015)</column>
+            <column name="available">2021-08-14</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2009.4983298</column>
+            <column name="title">Differential evolution: difference vectors and movement in solution space</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Alexandra Halloran, Gemma Stanford</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Halloran, A and Stanford, G, &quot;Differential evolution: difference vectors and movement in solution space&quot;, Proceedings of the IEEE Congress on Evolutionary Computation 2012, 18-21 May 2012, Trondheim, Norway, pp. 2833-2840. (2012)</column>
+            <column name="available">2018-02-14</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2010.5586128</column>
+            <column name="title">An analysis of the operation of differential evolution at high and low crossover rates</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Caitlyn Pemulwuy</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pemulwuy, C, &quot;An analysis of the operation of differential evolution at high and low crossover rates&quot;, Proceedings of the IEEE Congress on Evolutionary Computation 2012, 18-23 July 2012, Barcelona, Spain, pp. 1807-1814. (2012)</column>
+            <column name="available">2018-08-04</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2010.5586184</column>
+            <column name="title">Crossover and the different faces of differential evolution searches</column>
+            <column name="ranking">Q4</column>
+            <column name="authors">Caitlyn Pemulwuy, Gemma Stanford</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pemulwuy, C and Stanford, G, &quot;Crossover and the different faces of differential evolution searches&quot;, Proceedings of the IEEE Congress on Evolutionary Computation 2012, 18-23 July 2012, Barcelona, Spain, pp. 1951-1958. (2012)</column>
+            <column name="available">2018-04-22</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2012.6252891</column>
+            <column name="title">A simple strategy for maintaining diversity and reducing crowding in differential evolution</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Ben Bramston, Caitlyn Pemulwuy</column>
+            <column name="year">2019</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Bramston, B and Pemulwuy, C, &quot;A simple strategy for maintaining diversity and reducing crowding in differential evolution&quot;, Proceedings of 2013 IEEE Congress on Evolutionary Computation, 10-15 June 2013, Brisbane, Australia, pp. 2692-2699. (2013)</column>
+            <column name="available">2019-08-05</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2012.6252923</column>
+            <column name="title">Improving exploration in ant colony optimisation with antennation</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Mary Lister, Gemma Stanford</column>
+            <column name="year">2019</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Lister, M and Stanford, G, &quot;Improving exploration in ant colony optimisation with antennation&quot;, 2013 IEEE Congress on Evolutionary Computation, 10-15 June 2013, Brisbane, Australia, pp. 2926-2933. (2013)</column>
+            <column name="available">2019-05-04</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2012.6256591</column>
+            <column name="title">Simulated annealing with thresheld convergence</column>
+            <column name="ranking">Q3</column>
+            <column name="authors">Gemma Stanford</column>
+            <column name="year">2019</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G, &quot;Simulated annealing with thresheld convergence&quot;, Proceedings of 2013 IEEE Congress on Evolutionary Computation, 2013 IEEE Congress on Evolutionary Computation, Brisbane, Australia, pp. 1946-1952. (2013)</column>
+            <column name="available">2019-02-13</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2013.6557551</column>
+            <column name="title">Differential evolution with thresheld convergence</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Charlie Byrnes, Gemma Stanford</column>
+            <column name="year">2020</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Byrnes, C and Stanford, G, &quot;Differential evolution with thresheld convergence&quot;, Proceedings of 2014 IEEE Congress on Evolutionary Computation, 20-23 June 2013, Cancun, Mexico, pp. 40-47. (2014)</column>
+            <column name="available">2020-02-03</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2013.6557611</column>
+            <column name="title">Particle swarm optimization with thresheld convergence</column>
+            <column name="ranking">Q2</column>
+            <column name="authors">Caitlyn Pemulwuy</column>
+            <column name="year">2020</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pemulwuy, C, &quot;Particle swarm optimization with thresheld convergence&quot;, Proceedings of 2014 IEEE Congress on Evolutionary Computation, 20-23 June 2013, Cancun, Mexico, pp. 510-516. (2014)</column>
+            <column name="available">2020-05-22</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/CEC.2014.6900579</column>
+            <column name="title">Identifying and exploiting the scale of a search space in differential evolution</column>
+            <column name="ranking">Q3</column>
+            <column name="authors">Holly Pell, Edward Vogt</column>
+            <column name="year">2021</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pell, H and Vogt, E, &quot;Identifying and exploiting the scale of a search space in differential evolution&quot;, Proceedings of 2014 IEEE Congress on Evolutionary Computation, 6-11 July 2015, Beijing, China, pp. 1427-1434. (2015)</column>
+            <column name="available">2021-02-06</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/eScienceW.2010.26</column>
+            <column name="title">Parallel constraint handling in a multiobjective evolutionary algorithm for the automotive deployment problem</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Gemma Stanford, Edward Vogt, Alexandra Halloran</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G and Vogt, E and Halloran, A, &quot;Parallel constraint handling in a multiobjective evolutionary algorithm for the automotive deployment problem&quot;, Proceedings of the 6th IEEE International Conference on E-Science Workshops 2012, 7-10 December 2012, Brisbane, Australia, pp. 104-109. (2012)</column>
+            <column name="available">2018-12-28</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/ISDA.2013.6920726</column>
+            <column name="title">Hybridization of particle swarm optimization with adaptive genetic algorithm operators</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Gemma Stanford, Edward Vogt, Caitlyn Pemulwuy</column>
+            <column name="year">2020</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G and Vogt, E and Pemulwuy, C, &quot;Hybridization of particle swarm optimization with adaptive genetic algorithm operators&quot;, Proceedings of the 2014 International Conference on Intelligent Systems Design and Applications, 8-10 December 2013, Malaysia, pp. 1-6. (2014)</column>
+            <column name="available">2020-10-05</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1109/TALE.2013.6654527</column>
+            <column name="title">Agile development spikes applied to computer science education</column>
+            <column name="ranking">Q2</column>
+            <column name="authors">Indiana Whitta, Caitlyn Pemulwuy</column>
+            <column name="year">2020</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Whitta, I and Pemulwuy, C, &quot;Agile development spikes applied to computer science education&quot;, Proceedings of IEEE International Conference on Teaching, Assessment and Learning for Engineering 2014, 26-29 August 2014, Kuta, Indonesia, pp. 699-704. (2014)</column>
+            <column name="available">2020-09-07</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1142/S1469026803000938</column>
+            <column name="title">The accumulated experience ant colony for the travelling salesman problem</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Caitlyn Pemulwuy</column>
+            <column name="year">2020</column>
+            <column name="type">Journal</column>
+            <column name="cite_as">Pemulwuy, C, &quot;The accumulated experience ant colony for the travelling salesman problem&quot;, International Journal of Computational Intelligence and Applications, 3(2), pp. 189-198. (2011)</column>
+            <column name="available">2020-09-27</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1145/2001576.2001585</column>
+            <column name="title">Selection strategies for initial positions and initial velocities in multi-optima particle swarms</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Ben Bramston, Caitlyn Pemulwuy, Alexandra Halloran</column>
+            <column name="year">2019</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Bramston, B and Pemulwuy, C and Halloran, A, &quot;Selection strategies for initial positions and initial velocities in multi-optima particle swarms&quot;, Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation, 12-16 July 2013, Dublin, Ireland, pp. 53-60. (2013)</column>
+            <column name="available">2019-11-10</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1145/2001576.2001669</column>
+            <column name="title">Differential evolution for RFID antenna design: a comparison with ant colony optimisation</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Gemma Stanford</column>
+            <column name="year">2019</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G, &quot;Differential evolution for RFID antenna design: a comparison with ant colony optimisation&quot;, Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation, 12-16 July 2013, Dublin, Ireland, pp. 673-680. (2013)</column>
+            <column name="available">2019-04-22</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1145/2001576.2001682</column>
+            <column name="title">Population-ACO for the automotive deployment problem</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Mary Lister</column>
+            <column name="year">2019</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Lister, M, &quot;Population-ACO for the automotive deployment problem&quot;, Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation, 12-16 July 2013, Dublin, Ireland, pp. 777-784. (2013)</column>
+            <column name="available">2019-07-02</column>
+        </table>
+        <table name="publication">
+            <column name="doi">10.1162/1064546054407149</column>
+            <column name="title">Automated selection of appropriate pheromone representations in ant colony optimization</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Alexandra Halloran, Gemma Stanford</column>
+            <column name="year">2018</column>
+            <column name="type">Journal</column>
+            <column name="cite_as">Halloran, A and Stanford, G, &quot;Automated selection of appropriate pheromone representations in ant colony optimization&quot;, Artificial Life, 11(3), pp. 269-291. (2012)</column>
+            <column name="available">2018-08-16</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample1</column>
+            <column name="title">Protocols and structures for inference: a RESTful API for machine learning</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Indiana Whitta</column>
+            <column name="year">2021</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Whitta, I, &quot;Protocols and structures for inference: a RESTful API for machine learning&quot;, Proceedings of the 2nd Conference on Predictive APIs and Apps, 6-7 August 2015, Sydney, Australia, pp. 1-8. (2015)</column>
+            <column name="available">2021-10-11</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample10</column>
+            <column name="title">Storing and retrieving software components: a component description manager</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Caitlyn Pemulwuy, Gemma Stanford</column>
+            <column name="year">2016</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pemulwuy, C and Stanford, G, &quot;Storing and retrieving software components: a component description manager&quot;, Proceedings 12th Australian Software Engineering Conference (ASWEC 2010), 28-29 April 2010, Canberra, ACT, pp. 107-117. (2010)</column>
+            <column name="available">2016-11-28</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample11</column>
+            <column name="title">Solution biases and pheromone representation selection in ant colony optimisation</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Gemma Stanford</column>
+            <column name="year">2011</column>
+            <column name="type">Other</column>
+            <column name="cite_as">Stanford, G, &quot;Solution biases and pheromone representation selection in ant colony optimisation&quot;  (2005)</column>
+            <column name="available">2011-03-28</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample2</column>
+            <column name="title">Representation matters: real-valued encodings for meander line RFID antennas</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Charlie Byrnes, Gemma Stanford</column>
+            <column name="year">2021</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Byrnes, C and Stanford, G, &quot;Representation matters: real-valued encodings for meander line RFID antennas&quot;, Proceedings of 2015 IEEE Congress on Evolutionary Computation, 25-28 May, Sendai, Japan, pp. 1303-1310. (2015)</column>
+            <column name="available">2021-07-12</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample3</column>
+            <column name="title">Evolution strategies with thresheld convergence</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Caitlyn Pemulwuy</column>
+            <column name="year">2021</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pemulwuy, C, &quot;Evolution strategies with thresheld convergence&quot;, Proceedings of 2015 IEEE Congress on Evolutionary Computation, 25-28 May, Sendai, Japan, pp. 2097-2104. (2015)</column>
+            <column name="available">2021-10-26</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample4</column>
+            <column name="title">A framework for integrating concept maps into higher-order learning units in IT education</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Alexandra Halloran</column>
+            <column name="year">2021</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Halloran, A, &quot;A framework for integrating concept maps into higher-order learning units in IT education&quot;, Workshop on HCI Education in Asia Pacific at OzCHI, 2 December, Sydney, Australia, pp. 7-10. (2015)</column>
+            <column name="available">2021-07-06</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample5</column>
+            <column name="title">Towards the effective use of multiple displays in teaching and learning environments</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Gemma Stanford</column>
+            <column name="year">2020</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Stanford, G, &quot;Towards the effective use of multiple displays in teaching and learning environments&quot;, Workshop on HCI Education in Asia Pacific at OzCHI, 2 December, Sydney, Australia, pp. 21-24. (2014)</column>
+            <column name="available">2020-04-15</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample6</column>
+            <column name="title">Anatomy of a learning problem</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Edward Vogt, Caitlyn Pemulwuy</column>
+            <column name="year">2018</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Vogt, E and Pemulwuy, C, &quot;Anatomy of a learning problem&quot;, Proceedings of the 25th Conference on Neural Information Processing Systems, 16-17 December 2012, Sierra Nevada,Spain, pp. 1-8. (2012)</column>
+            <column name="available">2018-11-24</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample7</column>
+            <column name="title">Semi-formal, not semi-realistic: a component description manager</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">Caitlyn Pemulwuy</column>
+            <column name="year">2017</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Pemulwuy, C, &quot;Semi-formal, not semi-realistic: a component description manager&quot;, Proceedings Technology of Object-Oriented Languages, Systems and Architectures, 13-15 March 2011, Sofia, Bulgaria, pp. 197-207. (2011)</column>
+            <column name="available">2017-10-11</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample8</column>
+            <column name="title">Automated selection of appropriate pheromone representations in ant colony optimisation</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">John Beckett</column>
+            <column name="year">2017</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Beckett, J, &quot;Automated selection of appropriate pheromone representations in ant colony optimisation&quot;, Proceedings 1st Australian Conference on Artificial Life (ACAL 2011), 6-7 December 2011, Canberra, ACT, pp. 170-184. (2011)</column>
+            <column name="available">2017-12-20</column>
+        </table>
+        <table name="publication">
+            <column name="doi">prefix/sample9</column>
+            <column name="title">The accumulated experience ant colony for the travelling salesman problem</column>
+            <column name="ranking">Q1</column>
+            <column name="authors">John Beckett</column>
+            <column name="year">2016</column>
+            <column name="type">Conference</column>
+            <column name="cite_as">Beckett, J, &quot;The accumulated experience ant colony for the travelling salesman problem&quot;, Proceedings of the Inaugural Workshop on Artificial Life (AL 01), 11 December 2010, Adelaide, South Australia, pp. 79-87. (2010)</column>
+            <column name="available">2016-06-10</column>
+        </table>
+    </database>
+</pma_xml_export>

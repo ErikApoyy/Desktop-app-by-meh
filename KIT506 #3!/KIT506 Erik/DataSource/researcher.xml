@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.10
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Sep 26, 2023 at 11:13 AM
+- Server version: 5.5.68-MariaDB
+- PHP Version: 7.2.24
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="kit206" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="researcher">
+                CREATE TABLE `researcher` (
+                  `id` int(11) NOT NULL,
+                  `type` enum('Staff','Student') NOT NULL,
+                  `given_name` varchar(20) NOT NULL,
+                  `family_name` varchar(20) NOT NULL,
+                  `title` varchar(10) NOT NULL,
+                  `unit` varchar(64) NOT NULL,
+                  `campus` enum('Hobart','Launceston','Cradle Coast') NOT NULL,
+                  `email` varchar(50) DEFAULT NULL,
+                  `photo` varchar(512) DEFAULT NULL,
+                  `degree` varchar(16) DEFAULT NULL,
+                  `supervisor_id` int(11) DEFAULT NULL,
+                  `level` enum('A','B','C','D','E') DEFAULT NULL,
+                  `utas_start` date DEFAULT NULL,
+                  `current_start` date DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `fk_researcher_researcher1` (`supervisor_id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'kit206'
+    -->
+    <database name="kit206">
+        <!-- Table researcher -->
+        <table name="researcher">
+            <column name="id">123460</column>
+            <column name="type">Staff</column>
+            <column name="given_name">John</column>
+            <column name="family_name">Beckett</column>
+            <column name="title">Dr</column>
+            <column name="unit">Engineering &amp; ICT</column>
+            <column name="campus">Hobart</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">NULL</column>
+            <column name="supervisor_id">NULL</column>
+            <column name="level">B</column>
+            <column name="utas_start">2010-06-17</column>
+            <column name="current_start">2010-06-17</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123461</column>
+            <column name="type">Staff</column>
+            <column name="given_name">Gemma</column>
+            <column name="family_name">Stanford</column>
+            <column name="title">Dr</column>
+            <column name="unit">Engineering &amp; ICT</column>
+            <column name="campus">Launceston</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/1181521/pexels-photo-1181521.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">NULL</column>
+            <column name="supervisor_id">NULL</column>
+            <column name="level">C</column>
+            <column name="utas_start">2006-01-19</column>
+            <column name="current_start">2014-01-01</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123462</column>
+            <column name="type">Staff</column>
+            <column name="given_name">Edward</column>
+            <column name="family_name">Vogt</column>
+            <column name="title">Dr</column>
+            <column name="unit">Engineering &amp; ICT</column>
+            <column name="campus">Hobart</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">NULL</column>
+            <column name="supervisor_id">NULL</column>
+            <column name="level">B</column>
+            <column name="utas_start">2011-01-10</column>
+            <column name="current_start">2012-04-16</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123463</column>
+            <column name="type">Staff</column>
+            <column name="given_name">Mary</column>
+            <column name="family_name">Lister</column>
+            <column name="title">Dr</column>
+            <column name="unit">TIA</column>
+            <column name="campus">Hobart</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/3765175/pexels-photo-3765175.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">NULL</column>
+            <column name="supervisor_id">NULL</column>
+            <column name="level">B</column>
+            <column name="utas_start">2012-01-28</column>
+            <column name="current_start">2012-01-28</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123464</column>
+            <column name="type">Staff</column>
+            <column name="given_name">Caitlyn</column>
+            <column name="family_name">Pemulwuy</column>
+            <column name="title">Dr</column>
+            <column name="unit">TIA</column>
+            <column name="campus">Hobart</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">NULL</column>
+            <column name="supervisor_id">NULL</column>
+            <column name="level">D</column>
+            <column name="utas_start">2007-01-19</column>
+            <column name="current_start">2014-04-12</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123465</column>
+            <column name="type">Staff</column>
+            <column name="given_name">Indiana</column>
+            <column name="family_name">Whitta</column>
+            <column name="title">Dr</column>
+            <column name="unit">TIA</column>
+            <column name="campus">Cradle Coast</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/2777898/pexels-photo-2777898.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">NULL</column>
+            <column name="supervisor_id">NULL</column>
+            <column name="level">A</column>
+            <column name="utas_start">2014-05-23</column>
+            <column name="current_start">2014-05-23</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123466</column>
+            <column name="type">Student</column>
+            <column name="given_name">Alexandra</column>
+            <column name="family_name">Halloran</column>
+            <column name="title">Ms</column>
+            <column name="unit">Engineering &amp; ICT</column>
+            <column name="campus">Hobart</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/2346754/pexels-photo-2346754.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">PhD</column>
+            <column name="supervisor_id">123461</column>
+            <column name="level">NULL</column>
+            <column name="utas_start">2011-08-31</column>
+            <column name="current_start">2011-08-31</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123467</column>
+            <column name="type">Student</column>
+            <column name="given_name">Charlie</column>
+            <column name="family_name">Byrnes</column>
+            <column name="title">Mr</column>
+            <column name="unit">Engineering &amp; ICT</column>
+            <column name="campus">Hobart</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">PhD</column>
+            <column name="supervisor_id">123461</column>
+            <column name="level">NULL</column>
+            <column name="utas_start">2013-04-24</column>
+            <column name="current_start">2013-04-24</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123468</column>
+            <column name="type">Student</column>
+            <column name="given_name">Holly</column>
+            <column name="family_name">Pell</column>
+            <column name="title">Ms</column>
+            <column name="unit">Engineering &amp; ICT</column>
+            <column name="campus">Launceston</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/3294237/pexels-photo-3294237.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">PhD</column>
+            <column name="supervisor_id">123462</column>
+            <column name="level">NULL</column>
+            <column name="utas_start">2014-08-23</column>
+            <column name="current_start">2014-08-23</column>
+        </table>
+        <table name="researcher">
+            <column name="id">123469</column>
+            <column name="type">Student</column>
+            <column name="given_name">Ben</column>
+            <column name="family_name">Bramston</column>
+            <column name="title">Mr</column>
+            <column name="unit">TIA</column>
+            <column name="campus">Hobart</column>
+            <column name="email">no.such.email@example.org</column>
+            <column name="photo">https://images.pexels.com/photos/1587014/pexels-photo-1587014.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500</column>
+            <column name="degree">MSc</column>
+            <column name="supervisor_id">123464</column>
+            <column name="level">NULL</column>
+            <column name="utas_start">2011-03-16</column>
+            <column name="current_start">2011-03-16</column>
+        </table>
+    </database>
+</pma_xml_export>

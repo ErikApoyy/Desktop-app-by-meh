@@ -1,0 +1,46 @@
+/Users/erikapoyz/Desktop/KIT506 Erik/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.AssemblyReference.cache
+/Users/erikapoyz/Desktop/KIT506 Erik/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.CoreCompileInputs.cache
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.AssemblyReference.cache
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.CoreCompileInputs.cache
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/bin/Debug/KIT506 Erik.exe.config
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/bin/Debug/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/bin/Debug/KIT506 Erik.pdb
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Debug/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Debug/KIT506 Erik.pdb
+/Users/erikapoyz/Desktop/KIT506 #3 by Erik/KIT506 Erik/bin/Debug/KIT506 Erik.exe.config
+/Users/erikapoyz/Desktop/KIT506 #3 by Erik/KIT506 Erik/bin/Debug/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/KIT506 #3 by Erik/KIT506 Erik/bin/Debug/KIT506 Erik.pdb
+/Users/erikapoyz/Desktop/KIT506 #3 by Erik/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.AssemblyReference.cache
+/Users/erikapoyz/Desktop/KIT506 #3 by Erik/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.CoreCompileInputs.cache
+/Users/erikapoyz/Desktop/KIT506 #3 by Erik/KIT506 Erik/obj/Debug/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/KIT506 #3 by Erik/KIT506 Erik/obj/Debug/KIT506 Erik.pdb
+C:/Users/61424/Desktop/Hasib/Uni/Lecture/KIT506 software/Assigment-3/KIT506 #3!/KIT506 Erik/bin/Debug/KIT506 Erik.exe.config
+C:/Users/61424/Desktop/Hasib/Uni/Lecture/KIT506 software/Assigment-3/KIT506 #3!/KIT506 Erik/bin/Debug/KIT506 Erik.exe
+C:/Users/61424/Desktop/Hasib/Uni/Lecture/KIT506 software/Assigment-3/KIT506 #3!/KIT506 Erik/bin/Debug/KIT506 Erik.pdb
+C:/Users/61424/Desktop/Hasib/Uni/Lecture/KIT506 software/Assigment-3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.AssemblyReference.cache
+C:/Users/61424/Desktop/Hasib/Uni/Lecture/KIT506 software/Assigment-3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.CoreCompileInputs.cache
+C:/Users/61424/Desktop/Hasib/Uni/Lecture/KIT506 software/Assigment-3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.exe
+C:/Users/61424/Desktop/Hasib/Uni/Lecture/KIT506 software/Assigment-3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.pdb
+C:/Users/61424/source/repos/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.AssemblyReference.cache
+C:/Users/61424/source/repos/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.CoreCompileInputs.cache
+C:/Users/61424/source/repos/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.exe
+C:/Users/61424/source/repos/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.pdb
+C:/Users/61424/source/repos/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.exe.config
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.AssemblyReference.cache
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.CoreCompileInputs.cache
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.pdb
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/bin/Debug/KIT506 Erik.exe.config
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/bin/Debug/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/bin/Debug/KIT506 Erik.pdb
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/bin/Debug/MySql.Data.dll
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/bin/Debug/System.Threading.Tasks.Extensions.dll
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/bin/Debug/MySql.Data.xml
+/Users/erikapoyz/Desktop/Master of IT/July 2023/KIT506 Software App Design/Assignment #3/KIT506 #3!/KIT506 Erik/obj/Debug/KIT506 Erik.csproj.CopyComplete
+C:\Users\ecahyadi\Desktop\KIT506 #3!\KIT506 Erik\bin\Debug\KIT506 Erik.exe.config
+C:\Users\ecahyadi\Desktop\KIT506 #3!\KIT506 Erik\bin\Debug\KIT506 Erik.exe
+C:\Users\ecahyadi\Desktop\KIT506 #3!\KIT506 Erik\bin\Debug\KIT506 Erik.pdb
+C:\Users\ecahyadi\Desktop\KIT506 #3!\KIT506 Erik\obj\Debug\KIT506 Erik.csproj.CoreCompileInputs.cache
+C:\Users\ecahyadi\Desktop\KIT506 #3!\KIT506 Erik\obj\Debug\KIT506 Erik.csproj.CopyComplete
+C:\Users\ecahyadi\Desktop\KIT506 #3!\KIT506 Erik\obj\Debug\KIT506 Erik.exe
+C:\Users\ecahyadi\Desktop\KIT506 #3!\KIT506 Erik\obj\Debug\KIT506 Erik.pdb

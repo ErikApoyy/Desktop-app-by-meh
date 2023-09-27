@@ -1,0 +1,7 @@
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/bin/Release/KIT506 Erik.exe.config
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/bin/Release/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/bin/Release/KIT506 Erik.pdb
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Release/KIT506 Erik.csproj.AssemblyReference.cache
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Release/KIT506 Erik.csproj.CoreCompileInputs.cache
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Release/KIT506 Erik.exe
+/Users/erikapoyz/Desktop/KIT506 #3/KIT506 Erik/obj/Release/KIT506 Erik.pdb

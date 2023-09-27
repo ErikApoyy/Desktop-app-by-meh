@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.10
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Sep 26, 2023 at 11:13 AM
+- Server version: 5.5.68-MariaDB
+- PHP Version: 7.2.24
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="kit206" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="researcher_publication">
+                CREATE TABLE `researcher_publication` (
+                  `researcher_id` int(11) NOT NULL,
+                  `doi` varchar(256) NOT NULL,
+                  PRIMARY KEY (`researcher_id`,`doi`),
+                  KEY `fk_researcher_has_publication_publication1` (`doi`),
+                  CONSTRAINT `fk_researcher_has_publication_publication1` FOREIGN KEY (`doi`) REFERENCES `publication` (`doi`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+                  CONSTRAINT `fk_researcher_has_publication_researcher1` FOREIGN KEY (`researcher_id`) REFERENCES `researcher` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'kit206'
+    -->
+    <database name="kit206">
+        <!-- Table researcher_publication -->
+        <table name="researcher_publication">
+            <column name="researcher_id">123460</column>
+            <column name="doi">10.1007/978-3-540-76931-6_1</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123460</column>
+            <column name="doi">10.1007/b99492</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123460</column>
+            <column name="doi">prefix/sample8</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123460</column>
+            <column name="doi">prefix/sample9</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1007/11504894_31</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1007/3-540-45724-0_9</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1007/978-3-540-76931-6_1</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1007/s10489-014-0613-2</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1016/j.cor.2006.12.014</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1016/j.procs.2014.05.174</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1109/CEC.2009.4983298</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1109/CEC.2010.5586184</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1109/CEC.2012.6252923</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1109/CEC.2012.6256591</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1109/CEC.2013.6557551</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1109/eScienceW.2010.26</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1109/ISDA.2013.6920726</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1145/2001576.2001669</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">10.1162/1064546054407149</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">prefix/sample10</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">prefix/sample11</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">prefix/sample2</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123461</column>
+            <column name="doi">prefix/sample5</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123462</column>
+            <column name="doi">10.1016/j.cor.2006.12.014</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123462</column>
+            <column name="doi">10.1109/CEC.2014.6900579</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123462</column>
+            <column name="doi">10.1109/eScienceW.2010.26</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123462</column>
+            <column name="doi">10.1109/ISDA.2013.6920726</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123462</column>
+            <column name="doi">prefix/sample6</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123463</column>
+            <column name="doi">10.1007/11839088_49</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123463</column>
+            <column name="doi">10.1007/3-540-45724-0_22</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123463</column>
+            <column name="doi">10.1109/CEC.2012.6252923</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123463</column>
+            <column name="doi">10.1145/2001576.2001682</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1007/11839088_42</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1007/978-3-642-10427-5_27</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1109/CEC.2010.5586128</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1109/CEC.2010.5586184</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1109/CEC.2012.6252891</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1109/CEC.2013.6557611</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1109/ISDA.2013.6920726</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1109/TALE.2013.6654527</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1142/S1469026803000938</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">10.1145/2001576.2001585</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">prefix/sample10</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">prefix/sample3</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">prefix/sample6</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123464</column>
+            <column name="doi">prefix/sample7</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123465</column>
+            <column name="doi">10.1109/TALE.2013.6654527</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123465</column>
+            <column name="doi">prefix/sample1</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123466</column>
+            <column name="doi">10.1007/11504894_31</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123466</column>
+            <column name="doi">10.1007/978-3-642-25832-9_29</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123466</column>
+            <column name="doi">10.1109/CEC.2009.4983298</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123466</column>
+            <column name="doi">10.1109/eScienceW.2010.26</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123466</column>
+            <column name="doi">10.1145/2001576.2001585</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123466</column>
+            <column name="doi">10.1162/1064546054407149</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123466</column>
+            <column name="doi">prefix/sample4</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123467</column>
+            <column name="doi">10.1109/CEC.2013.6557551</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123467</column>
+            <column name="doi">prefix/sample2</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123468</column>
+            <column name="doi">10.1109/CEC.2014.6900579</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123469</column>
+            <column name="doi">10.1007/11839088_42</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123469</column>
+            <column name="doi">10.1109/CEC.2012.6252891</column>
+        </table>
+        <table name="researcher_publication">
+            <column name="researcher_id">123469</column>
+            <column name="doi">10.1145/2001576.2001585</column>
+        </table>
+    </database>
+</pma_xml_export>
